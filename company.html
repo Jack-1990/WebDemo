@@ -1,0 +1,4561 @@
+<!DOCTYPE html>
+<html class="" style="margin-right: 0px;" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>搜索结果页</title>
+  <link rel="stylesheet" type="text/css" href="resource/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="resource/css/base-global.css">
+  <link rel="stylesheet" type="text/css" href="resource/css/common.css">
+  <link rel="stylesheet" type="text/css" href="resource/css/pageNav.css">
+  <link rel="stylesheet" type="text/css" href="resource/css/company.css">
+  <script type="text/javascript" src="resource/js/jquery.min.js"></script>
+  <script type="text/javascript" src="resource/js/pageNav.js"></script>
+</head>
+<body>
+<div class="head">
+  <div class="container">
+    <div class="head_logo">
+      <a href="/" class="logo-link ">
+        <img src="resource/img/logo.png" width="250" height="80">
+      </a>
+    </div>
+    <div class="middle">
+      <div class="search">
+        <div class="input-group">
+          <input type="text" class="form-control" id="exampleInputAmount"
+                 placeholder="请输入企业名称、人名、商标名称或其他关键字如 &quot;远东&quot;">
+          <div class="input-group-addon search-btn"><img src="resource/img/xinyongsou.png"></div>
+        </div>
+
+      </div>
+    </div>
+    <div class="head_link fr">
+      <a href="#">登录</a> |
+      <a href="#">注册</a> |
+      <a href="#">会员服务</a>
+    </div>
+  </div>
+</div>
+<div class="line"></div>
+<div class="content">
+  <div class="container  padding-l-0x padding-r-0x pd-b50">
+    <!--左边内容 -->
+    <div class="col-md-9 ">
+      <div class="row bg-white padding-v-20px  border-b4 padding-l-20px">
+        <div class=" company-item">
+          <div class="col-1 text-center">
+            <div class="logo" style="background-image:url(resource/img/search-logo.png);"></div>
+          </div>
+          <div class="col-2">
+            <div class="col-2-1">
+              <div class="company-title">
+                <a href="#" target="_blank" title="点击查看公司详情">腾讯科技（深圳）有限公司 &nbsp;<span
+                        class="font-11-66">(档案编号: E10001223)</span></a>
+              </div>
+              <div class="legal-person">
+                <span style="color: #20aa33;font-size: 13px" class="margin-r-1x">A股 | 亨通光缆 600487</span>
+              </div>
+              <div class="legal-person margin-t-0-3x">
+                <span class="margin-r-1x"><img src="resource/img/icon-phone.png"/>电话：0755-86013388</span>
+              </div>
+              <div class="legal-person margin-t-0-3x">
+                <span class="margin-r-1x"><img src="resource/img/icon-computer.png"/>网址：<a style="color: #20aa33;">www.tencent.com</a></span>
+              </div>
+              <div class="legal-person margin-t-0-3x">
+                <span><img src="resource/img/icon-address.png"/>地址：深圳市南山区高新区科技中一路腾讯大厦35层</span>
+              </div>
+              <div class="match-item"></div>
+            </div>
+          </div>
+          <div class="company-status">
+            <a class="btn5 btn-sm">分享 <img style="margin-top: -5px" src="resource/img/arrow_down.png"></a>
+          </div>
+        </div>
+      </div>
+      <!--导航 -->
+      <div class="row bg-white margin-t-20px">
+          <table class="table app-nav-container  table1 margin-b-0x " style="cursor: pointer;position: absolute;background: white">
+            <thead class="border-b4 ">
+            <tr class="border1 no-border">
+              <td class="padding-l-2x">企业背景</td>
+              <td class="padding-l-2x">企业发展</td>
+              <td class="padding-l-2x">经营状况</td>
+              <td class="padding-l-2x">司法风险</td>
+              <td class="padding-l-2x">经营风险</td>
+              <td class="padding-l-2x">知识产权</td>
+              <td class="padding-l-2x">新闻舆情</td>
+            </tr>
+
+            </thead>
+            <tbody style="display: none">
+            <tr class="border3">
+              <td><a href="#"  onclick="scrollIntoViewMsg('#icinfo')">工商注册<span class="font-m1">2</span></a></td>
+              <td><a onclick="scrollIntoViewMsg('#social_honor')">社会荣誉 <span class="font-m1">1</span></a></td>
+              <td><a onclick="scrollIntoViewMsg('#bidding')">投标报价与分析 <span class="font-m1">1</span></a></td>
+              <td><a onclick="scrollIntoViewMsg('#referee')"> 裁判文书 <span class="font-m1">1</span></a></td>
+              <td><a onclick="scrollIntoViewMsg('#abnormal_business')"> 经营异常 <span class="font-m1">1</span></a></td>
+              <td><a onclick="scrollIntoViewMsg('#brand')"> 商标 <span class="font-m1">1</span></a></td>
+              <td><a onclick="scrollIntoViewMsg('#opinion')"> 社会舆论 <span class="font-m1">1</span></a></td>
+            </tr>
+            <tr class="border3">
+              <td><a onclick="scrollIntoViewMsg('#partners')"> 股东结构 <span class="font-m1">2</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#charitable')"> 慈善/公益服务 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#prompt')"> 价格警示与提示 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#court_notice')"> 法院公告 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#penalties')"> 行政处罚 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#patent')"> 专利 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#association')"> 行业评价 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+            </tr>
+            <tr class="border3">
+              <td><a onclick="scrollIntoViewMsg('#employees')"> 主要人员 <span class="font-m1">2</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#reward')"> 行政奖励 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#clear')"> 清算信息 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#performer')"> 被执行人 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#equity_funding')"> 股权出资 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#copyright')"> 著作权<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#partner')"> 合作评价<span class="font-m1">1</span></a><div class="ling2"></div></td>
+            </tr>
+            <tr class="border3">
+              <td><a onclick="scrollIntoViewMsg('#branches')"> 分支机构 <span class="font-m1">2</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#credit')"> 银行信贷评价 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#pay_taxes')"> 纳税信息 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#lost_trustee')"> 失信被执行人 <span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#mortgage')"> 动产抵押<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#software_copyright')"> 软件著作权<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#user')"> 用户评价<span class="font-m1">1</span></a><div class="ling2"></div></td>
+            </tr>
+            <tr class="border3">
+              <td><a onclick="scrollIntoViewMsg('#changeInfo')"> 变更记录 <span class="font-m1">2</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#borrow')"> 民间借贷评价<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#financial')"> 财务报告<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td></td>
+              <td><a onclick="scrollIntoViewMsg('#integrity')"> 质量检查<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#certification')"> 资质认证<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#staff')"> 员工评价<span class="font-m1">1</span></a><div class="ling2"></div></td>
+            </tr>
+            <tr class="border3">
+              <td><a onclick="scrollIntoViewMsg('#investment')"> 对外投资 <span class="font-m1">2</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#scene')"> 企业实景<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#achievement')"> 典型业绩<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td></td>
+              <td><a onclick="scrollIntoViewMsg('#quality')"> 诚信检查<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#innovation')"> 重大创新成果<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td></td>
+            </tr>
+
+            <tr class="border3">
+              <td><a onclick="scrollIntoViewMsg('#annual_report')"> 企业年报 <span class="font-m1">2</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#video')"> 企业视频<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#device')"> 生产设备<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="border3">
+              <td><a onclick="scrollIntoViewMsg('#shangshi')"> 上市信息 <span class="font-m1">2</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#declare')"> 企业自主申报<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#discover')"> 检测装备<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr class="border3">
+              <td></td>
+              <td><a onclick="scrollIntoViewMsg('#performance')"> 国际市场表现<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td><a onclick="scrollIntoViewMsg('#technical_team')"> 技术团队<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr class="border3">
+              <td></td><td></td>
+              <td><a onclick="scrollIntoViewMsg('#appraisal')"> 检验检测报告<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr class="border3">
+              <td></td><td></td>
+              <td><a onclick="scrollIntoViewMsg('#materials')"> 材料来源证明<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr class="border3">
+              <td></td><td></td>
+              <td><a onclick="scrollIntoViewMsg('#security')"> 防伪标识查询<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr class="border3">
+              <td></td><td></td>
+              <td><a onclick="scrollIntoViewMsg('#supervision')"> 过程监造实景<span class="font-m1">1</span></a><div class="ling2"></div></td>
+              <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr class="border3">
+              <td colspan="7" class="padding-0x"><div class="line3"></div></td>
+            </tr>
+            <!--<tr>-->
+
+              <!--<td>股东结构 <span class="font-m1">1</span></td>-->
+              <!--<td>主要人员 <span class="font-m1">12</span></td>-->
+              <!--<td>分支机构 <span class="font-m1">8</span></td>-->
+              <!--<td>变更记录 <span class="font-m1">1</span></td>-->
+              <!--<td>对外投资 <span class="font-m1">6</span></td>-->
+              <!--<td>企业年报 <span class="font-m1">22</span></td>-->
+              <!--<td>上市信息 <span class="font-m1">1</span></td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+              <!--<td>社会荣誉 <span class="font-m1"></span></td>-->
+              <!--<td>慈善/公益服务 <span class="font-m1">1</span></td>-->
+              <!--<td>行政奖励 <span class="font-m1">12</span></td>-->
+              <!--<td>银行信贷评价 <span class="font-m1">8</span></td>-->
+              <!--<td>民间借贷评价 <span class="font-m1">1</span></td>-->
+              <!--<td>企业实景 <span class="font-m1">6</span></td>-->
+              <!--<td>企业视频 <span class="font-m1">22</span></td>-->
+              <!--<td>企业自主申报 <span class="font-m1">1</span></td>-->
+              <!--<td>国际市场表现 <span class="font-m1">1</span></td>-->
+            <!--</tr>-->
+            </tbody>
+          </table>
+
+      </div>
+
+
+      <div class="row bg-white margin-t-100px border-b4">
+        <div class="icinfo_title"><img src="resource/img/copany-title.png"></div>
+        <!-- 工商信息-->
+        <div class="tab-content padding-h-1x " id="icinfo">
+          <h4 class="section-title margin-t-2x"><strong>工商信息</strong></h4>
+          <table class="table table1  margin-t-1x">
+            <tbody>
+            <tr style="height: 100px">
+              <td><img src="resource/img/1.png">
+                <div class="margin-t-50px margin-l-50px margin-t-f-35px">法定代表人</div>
+                <span class="margin-l-50px">马化腾</span></span法定代表人></td>
+              <td><img src="resource/img/icon-2.png">
+                <div class="margin-t-50px margin-l-50px margin-t-f-35px">注册资本</div>
+                <span class="margin-l-50px">299.999999万美元</span></td>
+              <td><img src="resource/img/icon-3.png">
+                <div class="margin-t-50px margin-l-50px margin-t-f-35px">注册时间</div>
+                <span class="margin-l-50px">2000-02-24</span></td>
+              <td><img src="resource/img/icon-4.png">
+                <div class="margin-t-50px margin-l-50px margin-t-f-35px">当前状态</div>
+                <span class="margin-l-50px">开业</span></td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <table class="table">
+                  <tbody>
+                  <tr>
+                    <td><span class="font-11-66">工商注册号: </span>440301503270924</td>
+                    <td><span class="font-11-66">组织机构代码: </span>71526726X</td>
+                  </tr>
+                  <tr>
+                    <td><span class="font-11-66">统一社会信用代码: </span>9144030071526726XG</td>
+                    <td><span class="font-11-66">公司类型: </span>有限责任公司(台港澳法人独资)</td>
+                  </tr>
+                  <tr>
+                    <td><span class="font-11-66">所属行业: </span>软件和信息技术服务业</td>
+                    <td><span class="font-11-66">营业期限: </span>2000-02-24至无固定期限</td>
+                  </tr>
+                  <tr>
+                    <td><span class="font-11-66">核准日期: </span>2000-02-24</td>
+                    <td><span class="font-11-66">机关登记: </span>深圳市市场监督管理局</td>
+                  </tr>
+                  <tr>
+                    <td colspan="1"><span class="font-11-66">注册地址: </span>深圳市南山区高新区科技中一路腾讯大厦35层</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <span class="font-11-66">经营范围: </span>
+                ^从事计算机软硬件的技术开发、销售自行开发的软件；计算机技术服务及信息服务；计算机硬件的研发、批发；
+                玩具设计开发；玩具的批发与零售（许可审批类商品除外）；商品的批发与零售（许可审批类商品除外）；动漫
+                及衍生产品设计服务；电子产品设计服务。
+                （特许经营除外；以上项目不涉及外商投资准入特别管理措施；不涉及国营贸易管理商品；涉及配额、许可证管
+                理商品的，按国家有关规定办理申请）。....&nbsp;<span class="font-a5">详细</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- 股东结构信息-->
+        <div class="tab-content padding-h-1x " id="partners">
+          <h4 class="section-title margin-t-2x"><strong>股东结构信息</strong></h4>
+          <table class="table table1   table-bordered margin-t-1x">
+            <thead>
+            <tr>
+              <td colspan="1">股东</td>
+              <td>出资比例</td>
+              <td>认缴出资</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="background_color1">
+              <td colspan="1">
+                <span>中霸集团有限公司</span>
+              </td>
+              <td>
+                5%
+              </td>
+              <td>
+                600,000万元
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1">
+                <span>中霸集团有限公司</span>
+                <div class="border-b4 btn6">
+                  他的所有公司 <img src="resource/img/arrow_down.png">
+                </div>
+              </td>
+              <td>
+                5%
+              </td>
+              <td>
+                600,000万元
+              </td>
+            </tr>
+
+            <tr class="background_color1">
+              <td colspan="1">
+                <span>中霸集团有限公司</span>
+                <div class="border-b4 btn6">
+                  他的所有公司 <img src="resource/img/arrow_down.png">
+                </div>
+              </td>
+              <td>
+                5%
+              </td>
+              <td>
+                600,000万元
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- 主要人员-->
+        <div class="tab-content padding-h-1x " id="employees">
+          <h4 class="section-title margin-t-2x"><strong>主要人员</strong></h4>
+          <table class="table table1 margin-t-1x">
+            <tbody>
+            <tr>
+              <td>
+                <table class="table  margin-t-20px border-b4">
+                  <tbody>
+                  <tr>
+                    <td class="background_color1">
+                      总经理
+                    </td>
+                    <td>
+                      <span>马化腾</span>
+                      <div class="border-b4 btn6">
+                        他的所有公司 <img src="resource/img/arrow_down.png">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      董事
+                    </td>
+                    <td>
+                      <span>SEARLE,CHARLE</span>
+                      <div class="border-b4 btn6">
+                        他的所有公司 <img src="resource/img/arrow_down.png">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="background_color1">
+                      董事
+                    </td>
+                    <td>
+                      <span>奚丹</span>
+                      <div class="border-b4 btn6">
+                        他的所有公司 <img src="resource/img/arrow_down.png">
+                      </div>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td>
+                <table class="table  margin-t-20px border-b4">
+                  <tbody>
+                  <tr>
+                    <td class="background_color1">
+                      总经理
+                    </td>
+                    <td>
+                      <span>马化腾</span>
+                      <div class="border-b4 btn6">
+                        他的所有公司 <img src="resource/img/arrow_down.png">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      董事
+                    </td>
+                    <td>
+                      <span>SEARLE,CHARLE</span>
+                      <div class="border-b4 btn6">
+                        他的所有公司 <img src="resource/img/arrow_down.png">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="background_color1">
+                      董事
+                    </td>
+                    <td>
+                      <span>奚丹</span>
+                      <div class="border-b4 btn6">
+                        他的所有公司 <img src="resource/img/arrow_down.png">
+                      </div>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </td>
+
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- 分支机构-->
+        <div class="tab-content padding-h-1x " id="branches">
+          <h4 class="section-title margin-t-2x"><strong>分支机构</strong></h4>
+          <table class="table table1  margin-t-1x">
+            <tbody>
+            <tr>
+              <td>
+                <table class="table   margin-t-20px border-b4">
+                  <tbody>
+                  <tr>
+                    <td style="width: 60px;background-color: #fcfcfc">
+                      1
+                    </td>
+                    <td>
+                      <a style="color: #2ab1c8">腾讯科技（深圳）有限公司广州分公司</a>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </td>
+
+
+            </tr>
+            </tbody>
+          </table>
+          </td>
+          </tr>
+          </tbody>
+          </table>
+        </div>
+        <!-- 变更记录-->
+        <div class="tab-content padding-h-1x " id="changeInfo">
+          <h4 class="section-title margin-t-2x"><strong>变更记录</strong></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr>
+              <td style="width: 15%">
+                变更时间
+              </td>
+              <td style="width: 15%">
+                变更项目
+              </td>
+              <td style="width: 35%">
+                变更前
+              </td>
+              <td style="width: 35%">
+                变更后
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                经营范围
+              </td>
+              <td>
+                从事计算机软硬件的技术开发，销售自行开发的软件。计算机技术服务及信息服务；计算机硬件的研发、批发；玩具设计开发。
+              </td>
+              <td>
+                从事计算机软硬件的技术开发、销售自行开发的软件；计算机技术服务及信息服务；计算机硬件的研发、批发；玩具设计开发；玩具的批发与零售（许可审批类商品除外）；商品的批发与零售（许可审批类商品除外）；动漫及衍生产品设计服务；电子产品设计服务。
+                （特许经营除外；以上项目不涉及外商投资准入特别管理措施；不涉及国营贸易管理商品；涉及配额、许可证管理商品的，按国家有关规定办理申请）。
+              </td>
+            </tr>
+            <tr>
+              <td>
+                2016-11-11
+              </td>
+              <td>
+                地址
+              </td>
+              <td>
+                深圳市福田区赛格科技园2栋东403号
+              </td>
+              <td>
+                深圳市南山区高新区科技中一路腾讯大厦35层
+              </td>
+            </tr>
+            <tr>
+              <td>
+                2016-09-30
+              </td>
+              <td>
+                经营范围
+              </td>
+              <td>
+                从事计算机软硬件的技术开发，销售自行开发的软件。计算机技术服务及信息服务；计算机硬件的研发、批发。
+              </td>
+              <td>
+                从事计算机软硬件的技术开发，销售自行开发的软件。计算机技术服务及信息服务；计算机硬件的研发、批发；玩具设计开发。
+              </td>
+            </tr>
+            <tr>
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                经营范围
+              </td>
+              <td>
+                从事计算机软硬件的技术开发，销售自行开发的软件。计算机技术服务及信息服务；计算机硬件的研发、批发；玩具设计开发。
+              </td>
+              <td>
+                从事计算机软硬件的技术开发、销售自行开发的软件；计算机技术服务及信息服务；计算机硬件的研发、批发；玩具设计开发；玩具的批发与零售（许可审批类商品除外）；商品的批发与零售（许可审批类商品除外）；动漫及衍生产品设计服务；电子产品设计服务。
+                （特许经营除外；以上项目不涉及外商投资准入特别管理措施；不涉及国营贸易管理商品；涉及配额、许可证管理商品的，按国家有关规定办理申请）。
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- 对外投资-->
+        <div class="tab-content padding-h-1x " id="investment">
+          <h4 class="section-title margin-t-2x"><strong>对外投资</strong></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr>
+              <td style="width: 20%">
+                被投资企业名称
+              </td>
+              <td style="width: 15%">
+                被投资法定代表人
+              </td>
+              <td style="width: 10%">
+                注册资本
+              </td>
+              <td style="width: 10%">
+                投资数额
+              </td>
+              <td style="width: 10%">
+                投资占比
+              </td>
+              <td style="width: 10%">
+                注册时间
+              </td>
+              <td style="width: 10%">
+                状态
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="background_color1">
+              <td>
+                深圳市腾讯网络信息技术有限公司
+              </td>
+              <td>
+                金国权
+              </td>
+              <td>
+                1000 万人民币
+              </td>
+              <td>
+                200 万人民币
+              </td>
+              <td>
+                8%
+              </td>
+              <td>
+                2017-12-22
+              </td>
+              <td>
+                存续（在营、开业、在册）
+              </td>
+            </tr>
+            <tr>
+              <td>
+                深圳市腾讯网络信息技术有限公司
+              </td>
+              <td>
+                金国权
+              </td>
+              <td>
+                1000 万人民币
+              </td>
+              <td>
+                200 万人民币
+              </td>
+              <td>
+                8%
+              </td>
+              <td>
+                2017-12-22
+              </td>
+              <td>
+                存续（在营、开业、在册）
+              </td>
+            </tr>
+            <tr class="background_color1">
+              <td>
+                深圳市腾讯网络信息技术有限公司
+              </td>
+              <td>
+                金国权
+              </td>
+              <td>
+                1000 万人民币
+              </td>
+              <td>
+                200 万人民币
+              </td>
+              <td>
+                8%
+              </td>
+              <td>
+                2017-12-22
+              </td>
+              <td>
+                存续（在营、开业、在册）
+              </td>
+            </tr>
+            <tr>
+              <td>
+                深圳市腾讯网络信息技术有限公司
+              </td>
+              <td>
+                金国权
+              </td>
+              <td>
+                1000 万人民币
+              </td>
+              <td>
+                200 万人民币
+              </td>
+              <td>
+                8%
+              </td>
+              <td>
+                2017-12-22
+              </td>
+              <td>
+                存续（在营、开业、在册）
+              </td>
+            </tr>
+            <tr class="background_color1">
+              <td>
+                深圳市腾讯网络信息技术有限公司
+              </td>
+              <td>
+                金国权
+              </td>
+              <td>
+                1000 万人民币
+              </td>
+              <td>
+                200 万人民币
+              </td>
+              <td>
+                8%
+              </td>
+              <td>
+                2017-12-22
+              </td>
+              <td>
+                存续（在营、开业、在册）
+              </td>
+            </tr>
+            <tr>
+              <td>
+                深圳市腾讯网络信息技术有限公司
+              </td>
+              <td>
+                金国权
+              </td>
+              <td>
+                1000 万人民币
+              </td>
+              <td>
+                200 万人民币
+              </td>
+              <td>
+                8%
+              </td>
+              <td>
+                2017-12-22
+              </td>
+              <td>
+                存续（在营、开业、在册）
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 上市信息-->
+        <div class="tab-content padding-h-1x " id="shangshi">
+          <h4 class="section-title margin-t-2x"><strong>上市信息</strong></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <tbody>
+            <tr >
+              <td class="background_color1">
+                简称
+              </td>
+              <td>
+                王者荣耀
+              </td>
+              <td class="background_color1">
+               上市市场
+              </td>
+              <td>
+                深交所
+              </td>
+            </tr>
+            <tr>
+              <td class="background_color2">
+              代码
+            </td>
+              <td>
+                300489
+              </td>
+              <td class="background_color2">
+                上市日期
+              </td>
+              <td>
+                2015-01-02
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 企业年报-->
+        <div class="tab-content padding-h-1x " id="annual_report">
+          <h4 class="section-title margin-t-2x"><strong>企业年报</strong></h4>
+          <table class="table table1  margin-t-1x">
+            <tbody>
+            <tr>
+              <td class="padding-t-2x">
+                <img src="resource/img/image-ad-1.png">
+              </td>
+              <td class="padding-t-2x">
+                <img src="resource/img/image-ad-1.png">
+              </td>
+              <td class="padding-t-2x">
+                <img src="resource/img/image-ad-1.png">
+              </td>
+              <td class="padding-t-2x">
+                <img src="resource/img/image-ad-1.png">
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <div class="row bg-white margin-t-20px border-b4">
+      <div class="icinfo_title"><img src="resource/img/qiye-title.png"></div>
+      <!-- 社会荣誉-->
+      <div class="tab-content padding-h-1x " id="social_honor">
+        <h4 class="section-title margin-t-2x"><strong>社会荣誉</strong> <small class="margin-l-20px">共计<span class="font-m1">2</span>条</small></h4>
+        <table class="table table1  margin-t-1x">
+          <tbody>
+          <tr>
+            <td>
+              <table class="table table1 border-b4  margin-t-1x">
+                <tbody>
+                <tr class="model1">
+                  <td class="background_color1">
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                <tr class="model1" >
+                  <td>
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 慈善/公益服务-->
+      <div class="tab-content padding-h-1x " id="charitable">
+        <h4 class="section-title margin-t-2x"><strong>慈善/公益服务</strong> <small class="margin-l-20px">共计<span class="font-m1">2</span>条</small></h4>
+        <table class="table table1  margin-t-1x">
+          <tbody>
+          <tr>
+            <td>
+              <table class="table table1 border-b4  margin-t-1x">
+                <tbody>
+                <tr class="model1">
+                  <td class="background_color1">
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                <tr class="model1" >
+                  <td>
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 行政奖励-->
+      <div class="tab-content padding-h-1x " id="reward">
+        <h4 class="section-title margin-t-2x"><strong>行政奖励</strong> <small class="margin-l-20px">共计<span class="font-m1">2</span>条</small></h4>
+        <table class="table table1  margin-t-1x">
+          <tbody>
+          <tr>
+            <td>
+              <table class="table table1 border-b4  margin-t-1x">
+                <tbody>
+                <tr class="model1">
+                  <td class="background_color1">
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                <tr class="model1" >
+                  <td>
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 商业银行信贷评价-->
+      <div class="tab-content padding-h-1x " id="credit">
+        <h4 class="section-title margin-t-2x"><strong>商业银行信贷评价</strong> <small class="margin-l-20px">共计<span class="font-m1">2</span>条</small></h4>
+        <table class="table table1  margin-t-1x">
+          <tbody>
+          <tr>
+            <td>
+              <table class="table table1 border-b4  margin-t-1x">
+                <tbody>
+                <tr class="model1">
+                  <td class="background_color1">
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                <tr class="model1" >
+                  <td>
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+      <!-- 民间借贷评价-->
+      <div class="tab-content padding-h-1x " id="borrow">
+        <h4 class="section-title margin-t-2x"><strong>民间借贷评价</strong> <small class="margin-l-20px">共计<span class="font-m1">2</span>条</small></h4>
+        <table class="table table1  margin-t-1x">
+          <tbody>
+          <tr>
+            <td>
+              <table class="table table1 border-b4  margin-t-1x">
+                <tbody>
+                <tr class="model1">
+                  <td class="background_color1">
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                <tr class="model1" >
+                  <td>
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+
+      <!-- 企业实景-->
+      <div class="tab-content padding-h-1x " id="scene">
+        <h4 class="section-title margin-t-2x"><strong>企业实景</strong> <small class="margin-l-20px">共计<span class="font-m1">6</span>条</small></h4>
+        <table class="table table1 border-t-b4 margin-t-1x">
+          <tbody>
+          <tr class="no-border">
+            <td class="padding-t-2x">
+              <img src="resource/img/image-1.png">
+            </td>
+            <td class="padding-t-2x">
+              <img src="resource/img/image-1.png">
+            </td>
+            <td class="padding-t-2x">
+              <img src="resource/img/image-1.png">
+            </td>
+            <td class="padding-t-2x">
+              <img src="resource/img/image-1.png">
+            </td>
+          </tr>
+          <tr  class="no-border">
+            <td class="padding-t-2x">
+              <img src="resource/img/image-1.png">
+            </td>
+            <td class="padding-t-2x">
+              <img src="resource/img/image-1.png">
+            </td>
+            <td class="padding-t-2x">
+              <img src="resource/img/image-1.png">
+            </td>
+            <td class="padding-t-2x">
+              <img src="resource/img/image-1.png">
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <nav aria-label="Page navigation" class="page-nav-outer" style="text-align: left;margin-top: 20px" id="PageNavId"></nav>
+        <span style="width: 80px;margin-top: -70px;float: right">2017-02-25</span>
+      </div>
+
+      <!-- 企业视频-->
+      <div class="tab-content padding-h-1x " id="video">
+        <h4 class="section-title margin-t-2x"><strong>企业视频</strong> <small class="margin-l-20px">共计<span class="font-m1">3</span>条</small></h4>
+        <table class="table table1 border-t-b4 margin-t-1x">
+          <tbody>
+          <tr  class="no-border">
+            <td class="padding-t-2x">
+              <img src="resource/img/video-1.png">
+            </td>
+            <td class="padding-t-2x">
+              <img src="resource/img/video-1.png">
+            </td>
+            <td class="padding-t-2x">
+              <img src="resource/img/video-1.png">
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+      <!-- 企业自主申报-->
+      <div class="tab-content padding-h-1x " id="declare">
+        <h4 class="section-title margin-t-2x"><strong>企业自主申报</strong> <small class="margin-l-20px">共计<span class="font-m1">2</span>条</small></h4>
+        <table class="table table1  margin-t-1x">
+          <tbody>
+          <tr>
+            <td>
+              <table class="table table1 border-b4  margin-t-1x">
+                <tbody>
+                <tr class="model1">
+                  <td class="background_color1">
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                <tr class="model1" >
+                  <td>
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+      <!-- 国际市场表现-->
+      <div class="tab-content padding-h-1x " id="performance">
+        <h4 class="section-title margin-t-2x"><strong>国际市场表现</strong> <small class="margin-l-20px">共计<span class="font-m1">2</span>条</small></h4>
+        <table class="table table1  margin-t-1x">
+          <tbody>
+          <tr>
+            <td>
+              <table class="table table1 border-b4  margin-t-1x">
+                <tbody>
+                <tr class="model1">
+                  <td class="background_color1">
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                <tr class="model1" >
+                  <td>
+                    2017-07-04
+                  </td>
+                  <td>
+                    中国建筑装饰三十年专业化百强企业-办公空间类
+                  </td>
+                  <td>
+                    中国企业协会
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+      <div class="row bg-white margin-t-20px border-b4">
+        <div class="icinfo_title"><img src="resource/img/jyzk-title.png"></div>
+        <!-- 投标报价与分析-->
+        <div class="tab-content padding-h-1x " id="bidding">
+          <h4 class="section-title margin-t-2x"><strong>投标报价与分析</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 15%">
+                开标日期
+              </td>
+              <td style="width: 25%">
+                项目名称
+              </td>
+              <td style="width: 15%">
+                电缆分类
+              </td>
+              <td style="width: 15%">
+                投标报价 (元)
+              </td>
+              <td >
+                相对原材料费用幅度
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+               2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+                2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+                2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+                2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+                2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+                2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- 价格预警与提示-->
+        <div class="tab-content padding-h-1x " id="prompt">
+          <h4 class="section-title margin-t-2x"><strong>价格预警与提示</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 15%">
+                开标日期
+              </td>
+              <td style="width: 25%">
+                项目名称
+              </td>
+              <td style="width: 15%">
+                招标单位
+              </td>
+              <td style="width: 15%">
+                投标报价 (元)
+              </td>
+              <td >
+                相对原材料费用幅度
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+                2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+                2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+                2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+                2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+                2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                低压电力电缆
+              </td>
+              <td>
+                2,301,150.00
+              </td>
+              <td>
+                <span>****</span>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 清算信息-->
+        <div class="tab-content padding-h-1x " id="clear">
+          <h4 class="section-title margin-t-2x"><strong>清算信息</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border td_color1">
+              <td style="width: 12%">
+                清算组负责人
+              </td>
+              <td style="width: 25%">
+                清算组成员
+              </td>
+              <td style="width: 10%">
+                债权承接人
+              </td>
+              <td style="width: 10%">
+                债务承接人
+              </td>
+              <td style="width: 15%">
+                清算完结日期
+              </td>
+              <td >
+                清算完结情况
+              </td>
+              <td >
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+               小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+               成功
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                成功
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                成功
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- 纳税信息-->
+        <div class="tab-content padding-h-1x " id="pay_taxes">
+          <h4 class="section-title margin-t-2x"><strong>清算信息</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border td_color1">
+              <td style="width: 12%">
+                评价年度
+              </td>
+              <td style="width: 25%">
+                纳税人识别号
+              </td>
+              <td style="width: 12%">
+                纳税信用等级
+              </td>
+              <td style="width: 10%">
+                评价单位
+              </td>
+              <td style="width: 15%">
+                是否正常纳税
+              </td>
+              <td >
+                是否欠税
+              </td>
+              <td >
+                欠税金额
+              </td>
+              <td >
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016
+              </td>
+              <td>
+                110302300200322002
+              </td>
+              <td>
+                A
+              </td>
+              <td>
+                国家税务局
+              </td>
+              <td>
+                -
+              </td>
+              <td>
+                -
+              </td>
+              <td>
+                -
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016
+              </td>
+              <td>
+                110302300200322002
+              </td>
+              <td>
+                A
+              </td>
+              <td>
+                国家税务局
+              </td>
+              <td>
+                -
+              </td>
+              <td>
+                -
+              </td>
+              <td>
+                -
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                2016
+              </td>
+              <td>
+                110302300200322002
+              </td>
+              <td>
+                A
+              </td>
+              <td>
+                国家税务局
+              </td>
+              <td>
+                -
+              </td>
+              <td>
+                -
+              </td>
+              <td>
+                -
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <!-- 财务报告-->
+        <div class="tab-content padding-h-1x " id="financial">
+          <h4 class="section-title margin-t-2x"><strong>财务报告</strong></h4>
+          <table class="table table1  margin-t-1x">
+            <tbody>
+            <tr>
+              <td>
+                <table class="table table1 border-b4  margin-t-1x">
+                  <tbody>
+                  <tr class="model1">
+                    <td class="background_color1">
+                      公司实力等级
+                    </td>
+                    <td>
+                      10亿 --- 100亿
+                    </td>
+                    <td class="background_color1">
+                      纳税区间
+                    </td>
+                    <td>
+                      2000万 - 1亿
+                    </td>
+                  </tr>
+                  <tr class="model1" >
+                    <td class="background_color2">
+                      销售净利润率
+                    </td>
+                    <td>
+                      0到10%
+                    </td>
+                    <td class="background_color2">
+                      销售毛利率
+                    </td>
+                    <td>
+                      10到15%
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 典型业绩-->
+        <div class="tab-content padding-h-1x " id="achievement">
+          <h4 class="section-title margin-t-2x"><strong>典型业绩</strong></h4>
+          <table class="table table1 margin-t-1x">
+            <tbody>
+            <tr>
+              <td style="width: 50%">
+                <table class="table  margin-t-20px border-b4">
+                  <tbody>
+                  <tr class="ver_al_middle no-border">
+                    <td>
+                      <img src="resource/img/news-1.png"/>
+                    </td>
+                    <td>
+                      <div class="msg">
+                        <span style="font-size: medium;color: #fca000">2016年里约日内瓦奥运会</span><br/>
+                        <span>现阶段互联网依然处于蓬勃发展，随着政府号召发展 "互联网+" ...</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="ver_al_middle no-border">
+                    <td>
+                      <img src="resource/img/news-1.png"/>
+                    </td>
+                    <td>
+                      <div class="msg">
+                        <span style="font-size: medium;color: #fca000">2016年里约日内瓦奥运会</span><br/>
+                        <span>现阶段互联网依然处于蓬勃发展，随着政府号召发展 "互联网+" ...</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="ver_al_middle no-border">
+                    <td>
+                      <img src="resource/img/news-1.png"/>
+                    </td>
+                    <td>
+                      <div class="msg">
+                        <span style="font-size: medium;color: #fca000">2016年里约日内瓦奥运会</span><br/>
+                        <span>现阶段互联网依然处于蓬勃发展，随着政府号召发展 "互联网+" ...</span>
+                      </div>
+                    </td>
+                  </tr>
+
+                  </tbody>
+                </table>
+              </td>
+              <td>
+                <table class="table  margin-t-20px border-b4">
+                  <tbody>
+                  <tr class="ver_al_middle no-border">
+                    <td>
+                      <img src="resource/img/news-1.png"/>
+                    </td>
+                    <td>
+                      <div class="msg">
+                        <span style="font-size: medium;color: #fca000">2016年里约日内瓦奥运会</span><br/>
+                        <span>现阶段互联网依然处于蓬勃发展，随着政府号召发展 "互联网+" ...</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="ver_al_middle no-border">
+                    <td>
+                      <img src="resource/img/news-1.png"/>
+                    </td>
+                    <td>
+                      <div class="msg">
+                        <span style="font-size: medium;color: #fca000">2016年里约日内瓦奥运会</span><br/>
+                        <span>现阶段互联网依然处于蓬勃发展，随着政府号召发展 "互联网+" ...</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="ver_al_middle no-border">
+                    <td>
+                      <img src="resource/img/news-1.png"/>
+                    </td>
+                    <td>
+                      <div class="msg">
+                        <span style="font-size: medium;color: #fca000">2016年里约日内瓦奥运会</span><br/>
+                        <span>现阶段互联网依然处于蓬勃发展，随着政府号召发展 "互联网+" ...</span>
+                      </div>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </td>
+
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 生产设备-->
+        <div class="tab-content padding-h-1x " id="device">
+          <h4 class="section-title margin-t-2x"><strong>生产设备</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border border-b-b4">
+              <td style="width: 15%">
+                设备名称
+              </td>
+              <td style="width: 25%">
+                型号
+              </td>
+              <td style="width: 15%">
+                数量 (台)
+              </td>
+              <td style="width: 15%">
+                产地
+              </td>
+              <td >
+                投运时间
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1 no-border background_color1">
+              <td>
+                高速编织机
+              </td>
+              <td>
+                GSB-2A
+              </td>
+              <td>
+                6
+              </td>
+              <td>
+               中国
+              </td>
+              <td>
+                2016-04-25
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1 no-border">
+              <td>
+                高速编织机
+              </td>
+              <td>
+                GSB-2A
+              </td>
+              <td>
+                6
+              </td>
+              <td>
+                中国
+              </td>
+              <td>
+                2016-04-25
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1 no-border background_color1">
+              <td>
+                高速编织机
+              </td>
+              <td>
+                GSB-2A
+              </td>
+              <td>
+                6
+              </td>
+              <td>
+                中国
+              </td>
+              <td>
+                2016-04-25
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1 no-border">
+              <td>
+                高速编织机
+              </td>
+              <td>
+                GSB-2A
+              </td>
+              <td>
+                6
+              </td>
+              <td>
+                中国
+              </td>
+              <td>
+                2016-04-25
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1 no-border background_color1">
+              <td>
+                高速编织机
+              </td>
+              <td>
+                GSB-2A
+              </td>
+              <td>
+                6
+              </td>
+              <td>
+                中国
+              </td>
+              <td>
+                2016-04-25
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 检测装备-->
+        <div class="tab-content padding-h-1x " id="discover">
+          <h4 class="section-title margin-t-2x"><strong>检测装备</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border border-b-b4">
+              <td style="width: 15%">
+                设备名称
+              </td>
+              <td style="width: 25%">
+                型号
+              </td>
+              <td style="width: 15%">
+                数量 (台)
+              </td>
+              <td style="width: 15%">
+                产地
+              </td>
+              <td >
+                投运时间
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1 no-border background_color1">
+              <td>
+                高速编织机
+              </td>
+              <td>
+                GSB-2A
+              </td>
+              <td>
+                6
+              </td>
+              <td>
+                中国
+              </td>
+              <td>
+                2016-04-25
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1 no-border">
+              <td>
+                高速编织机
+              </td>
+              <td>
+                GSB-2A
+              </td>
+              <td>
+                6
+              </td>
+              <td>
+                中国
+              </td>
+              <td>
+                2016-04-25
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1 no-border background_color1">
+              <td>
+                高速编织机
+              </td>
+              <td>
+                GSB-2A
+              </td>
+              <td>
+                6
+              </td>
+              <td>
+                中国
+              </td>
+              <td>
+                2016-04-25
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1 no-border">
+              <td>
+                高速编织机
+              </td>
+              <td>
+                GSB-2A
+              </td>
+              <td>
+                6
+              </td>
+              <td>
+                中国
+              </td>
+              <td>
+                2016-04-25
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            <tr class="border1 no-border background_color1">
+              <td>
+                高速编织机
+              </td>
+              <td>
+                GSB-2A
+              </td>
+              <td>
+                6
+              </td>
+              <td>
+                中国
+              </td>
+              <td>
+                2016-04-25
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 技术团队-->
+        <div class="tab-content padding-h-1x " id="technical_team">
+          <h4 class="section-title margin-t-2x"><strong>技术团队</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border td_color1">
+              <td style="width: 12%">
+                姓名
+              </td>
+              <td style="width: 25%">
+                职位
+              </td>
+              <td style="width: 10%">
+                部门
+              </td>
+              <td style="width: 10%">
+                职务
+              </td>
+              <td style="width: 15%">
+                专业特长
+              </td>
+              <td >
+                联系电话
+              </td>
+              <td >
+                电子邮箱
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                成功
+              </td>
+              <td>
+                15241654@qq.com
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                成功
+              </td>
+              <td>
+                15241654@qq.com
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                成功
+              </td>
+              <td>
+                15241654@qq.com
+              </td>
+
+            </tr>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                成功
+              </td>
+              <td>
+                15241654@qq.com
+              </td>
+
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- 鉴定报告/型式试验报告-->
+        <div class="tab-content padding-h-1x " id="appraisal">
+          <h4 class="section-title margin-t-2x"><strong>鉴定报告/型式试验报告</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border td_color1">
+              <td >
+                产品名称
+              </td>
+              <td >
+                检验类型
+              </td>
+              <td >
+                检验项目
+              </td>
+              <td >
+                检验结论
+              </td>
+              <td >
+                检验机构
+              </td>
+              <td >
+                检验日期
+              </td>
+              <td >
+                附件
+              </td>
+              <td >
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                成功
+              </td>
+              <td>
+                15241654@qq.com
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                成功
+              </td>
+              <td>
+                15241654@qq.com
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                成功
+              </td>
+              <td>
+                15241654@qq.com
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                成功
+              </td>
+              <td>
+                15241654@qq.com
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 原辅材料来源证明-->
+        <div class="tab-content padding-h-1x " id="materials">
+          <h4 class="section-title margin-t-2x"><strong>原辅材料来源证明</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border td_color1">
+              <td style="width: 20%">
+                证明类型
+              </td>
+              <td >
+                描述
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                小明
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 防伪标识查询-->
+        <div class="tab-content padding-h-1x " id="security">
+          <h4 class="section-title margin-t-2x"><strong>防伪标识查询</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border td_color1">
+              <td style="width: 8%">
+                序号
+              </td>
+              <td style="width: 25%">
+                标识名称
+              </td>
+              <td style="width: 15%">
+                标识类别
+              </td>
+              <td style="width: 15%">
+                防伪编码
+              </td>
+              <td >
+                描述
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                1
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                1
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                1
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                1
+              </td>
+              <td>
+                小明，小刚，小华
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                小明
+              </td>
+              <td>
+                2016-06-06
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <!-- 过程监造实景-->
+        <div class="tab-content padding-h-1x " id="supervision">
+          <h4 class="section-title margin-t-2x"><strong>过程监造实景</strong> <small class="margin-l-20px">共计<span class="font-m1">6</span>条</small></h4>
+          <table class="table table1 border-t-b4 margin-t-1x">
+            <tbody>
+            <tr class="border2">
+              <td class="padding-t-2x text-center col-lg-4">
+                <img src="resource/img/image-gc-1.png">
+                <br/>
+                <br/>
+                <span class="font-16 mg-t20">生产加工</span>
+                <br/>
+                <span class="padding-h-0-6x">详情: 工厂监造方案内容来自建龙网与工厂监造方案内容来自与之相关的精品资料、博文热帖、培训课程等....</span>
+              </td>
+              <td class="padding-t-2x text-center col-lg-4">
+                <img src="resource/img/image-gc-1.png">
+                <br/>
+                <br/>
+                <span class="font-16 mg-t20">生产加工</span>
+                <br/>
+                <span class="padding-h-0-6x">详情: 工厂监造方案内容来自建龙网与工厂监造方案内容来自与之相关的精品资料、博文热帖、培训课程等....</span>
+              </td>
+              <td class="padding-t-2x text-center col-lg-4">
+                <img src="resource/img/image-gc-1.png">
+                <br/>
+                <br/>
+                <span class="font-16 mg-t20">生产加工</span>
+                <br/>
+                <span class="padding-h-0-6x">详情: 工厂监造方案内容来自建龙网与工厂监造方案内容来自与之相关的精品资料、博文热帖、培训课程等....</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row bg-white margin-t-20px border-b4">
+        <div class="icinfo_title"><img src="resource/img/sffxain-title.png"></div>
+        <!-- 裁判文书-->
+        <div class="tab-content padding-h-1x " id="referee">
+          <h4 class="section-title margin-t-2x"><strong>裁判文书</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 15%">
+                日期
+              </td>
+              <td >
+                裁判文书
+              </td>
+              <td style="width: 15%">
+                案件类型
+              </td>
+              <td style="width: 20%">
+                案件号
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span>
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span>
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span>
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span>
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- 法院公告-->
+        <div class="tab-content padding-h-1x " id="court_notice">
+          <h4 class="section-title margin-t-2x"><strong>法院公告</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 12%">
+                公告日期
+              </td>
+              <td  style="width: 20%">
+                上诉方
+              </td>
+              <td style="width: 20%">
+                被诉方
+              </td>
+              <td style="width: 15%">
+                公告类型
+              </td>
+              <td>
+                法院
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span>
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                苏州市吴江区人民法院   <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span>
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                苏州市吴江区人民法院   <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span>
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                苏州市吴江区人民法院   <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span>
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                民事案件
+              </td>
+              <td>
+                苏州市吴江区人民法院   <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 执行人-->
+        <div class="tab-content padding-h-1x " id="performer">
+          <h4 class="section-title margin-t-2x"><strong>执行人</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 12%">
+                立案日期
+              </td>
+              <td  style="width: 20%">
+                执行标的
+              </td>
+              <td style="width: 20%">
+                案号
+              </td>
+              <td >
+                执行法院
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1 background_color1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+              3107675
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                苏州市吴江区人民法院   <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                3107675
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                苏州市吴江区人民法院   <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+
+              </td>
+            </tr>
+            <tr class="border1 background_color1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                3107675
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                苏州市吴江区人民法院   <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                3107675
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                苏州市吴江区人民法院   <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <!-- 失信被执行人-->
+        <div class="tab-content padding-h-1x " id="lost_trustee">
+          <h4 class="section-title margin-t-2x"><strong>失信被执行人</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border td_color1">
+              <td style="width: 12%">
+                立案日期
+              </td>
+              <td style="width: 20%">
+                案号
+              </td>
+              <td style="width: 20%">
+                执行法院
+              </td>
+              <td style="width: 13%">
+                履行状态
+              </td>
+              <td >
+                执行依据文号
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2015-02-03
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                全部履行
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2015-02-03
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                全部履行
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2015-02-03
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                全部履行
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2015-02-03
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                全部履行
+              </td>
+              <td>
+                (2016) 苏0412民初6861号
+              </td>
+              <td>
+                <span class="btn7">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+
+      <div class="row bg-white margin-t-20px border-b4">
+        <div class="icinfo_title"><img src="resource/img/jyfxian-title.png"></div>
+        <!-- 经营异常-->
+        <div class="tab-content padding-h-1x " id="abnormal_business">
+          <h4 class="section-title margin-t-2x"><strong>经营异常</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 12%">
+                列入日期
+              </td>
+              <td>
+                列入原因
+              </td>
+              <td style="width: 20%">
+                决定机关
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 行政处罚-->
+        <div class="tab-content padding-h-1x " id="penalties">
+          <h4 class="section-title margin-t-2x"><strong>行政处罚</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 12%">
+                决定日期
+              </td>
+              <td style="width: 20%">
+                决定书文号
+              </td>
+              <td >
+                类型
+              </td>
+              <td style="width: 20%">
+                决定机关
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 动产抵押-->
+        <div class="tab-content padding-h-1x " id="mortgage">
+          <h4 class="section-title margin-t-2x"><strong>动产抵押</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 12%">
+                登记日期
+              </td>
+              <td style="width: 20%">
+                登记编号
+              </td>
+              <td style="width: 15%">
+                被担保债权类型
+              </td>
+              <td >
+                登记机关
+              </td>
+              <td style="width: 10%">
+                状态
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                123132123132132
+              </td>
+              <td>
+                借贷
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                有效
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                123132123132132
+              </td>
+              <td>
+                借贷
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                有效
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                123132123132132
+              </td>
+              <td>
+                借贷
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                有效
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                123132123132132
+              </td>
+              <td>
+                借贷
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                有效
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- 股权出资-->
+        <div class="tab-content padding-h-1x " id="equity_funding">
+          <h4 class="section-title margin-t-2x"><strong>股权出资</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 12%">
+                列入日期
+              </td>
+              <td style="width: 20%">
+                登记编号
+              </td>
+              <td style="width: 15%">
+                出资人
+              </td>
+              <td >
+                股权人
+              </td>
+              <td style="width: 10%">
+                状态
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                123132123132132
+              </td>
+              <td>
+                借贷
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                有效
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                123132123132132
+              </td>
+              <td>
+                借贷
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                有效
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                123132123132132
+              </td>
+              <td>
+                借贷
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                有效
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-11-30
+              </td>
+              <td>
+                123132123132132
+              </td>
+              <td>
+                借贷
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                有效
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 质量检查-->
+        <div class="tab-content padding-h-1x " id="integrity">
+          <h4 class="section-title margin-t-2x"><strong>质量检查</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border border-b-b4">
+              <td style="width: 15%">
+                公告日期
+              </td>
+              <td style="width: 40%">
+                执行标的
+              </td>
+              <td >
+                标题
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1 no-border background_color1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+
+            </tr>
+            <tr class="border1 no-border ">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+
+            </tr>
+            <tr class="border1 no-border background_color1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+
+            </tr>
+            <tr class="border1 no-border ">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+
+            </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 诚信检查-->
+        <div class="tab-content padding-h-1x " id="quality">
+          <h4 class="section-title margin-t-2x"><strong>诚信检查</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border border-b-b4">
+              <td style="width: 15%">
+                公告日期
+              </td>
+              <td style="width: 40%">
+                执行标的
+              </td>
+              <td >
+                标题
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1 no-border background_color1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+
+            </tr>
+            <tr class="border1 no-border ">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+
+            </tr>
+            <tr class="border1 no-border background_color1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+
+            </tr>
+            <tr class="border1 no-border ">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+
+            </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <div class="row bg-white margin-t-20px border-b4">
+        <div class="icinfo_title"><img src="resource/img/zscquan-title.png"></div>
+        <!-- 商标-->
+        <div class="tab-content padding-h-1x " id="brand">
+          <h4 class="section-title margin-t-2x"><strong>商标</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 15%">
+                商标
+              </td>
+              <td>
+                商标名
+              </td>
+              <td style="width: 20%">
+                状态
+              </td>
+              <td style="width: 12%">
+                申请时间
+              </td>
+              <td style="width: 12%">
+                注册号
+              </td>
+              <td style="width: 12%">
+                类别
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                <img src="resource/img/00logo.png"/>
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                1212121
+              </td>
+              <td>
+                09-科学仪器
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                <img src="resource/img/00logo.png"/>
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                1212121
+              </td>
+              <td>
+                09-科学仪器
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                <img src="resource/img/00logo.png"/>
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                1212121
+              </td>
+              <td>
+                09-科学仪器
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                <img src="resource/img/00logo.png"/>
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                1212121
+              </td>
+              <td>
+                09-科学仪器
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+        <ul class="pagination pagination-sm" style="margin: auto">
+          <li>
+            <a href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li>
+            <a href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+
+        <!-- 专利-->
+        <div class="tab-content padding-h-1x " id="patent">
+          <h4 class="section-title margin-t-2x"><strong>专利</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 15%">
+                申请公布日
+              </td>
+              <td>
+                专利名称
+              </td>
+              <td style="width: 15%">
+                申请号
+              </td>
+              <td style="width: 15%">
+                申请公布号
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                151564653123
+              </td>
+              <td>
+                1231312321
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                151564653123
+              </td>
+              <td>
+                1231312321
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                151564653123
+              </td>
+              <td>
+                1231312321
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                151564653123
+              </td>
+              <td>
+                1231312321
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 著作权-->
+        <div class="tab-content padding-h-1x " id="copyright">
+          <h4 class="section-title margin-t-2x"><strong>著作权</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 6%">
+                序号
+              </td>
+              <td>
+                名称
+              </td>
+              <td style="width: 25%">
+                登记号
+              </td>
+              <td style="width: 12%">
+                登记日期
+              </td>
+              <td style="width: 12%">
+                登记类别
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                1
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                151564653123
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                1231312321
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                1
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                151564653123
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                1231312321
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                1
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                151564653123
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                1231312321
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 软件著作权-->
+        <div class="tab-content padding-h-1x " id="software_copyright">
+          <h4 class="section-title margin-t-2x"><strong>软件著作权</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 12%">
+                批准日期
+              </td>
+              <td>
+                软件全称
+              </td>
+              <td style="width: 15%">
+                软件简称
+              </td>
+              <td style="width: 12%">
+                登记号
+              </td>
+              <td style="width: 12%">
+                分类号
+              </td>
+              <td style="width: 12%">
+                版本号
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                亨通光电费用报销管理系统软件
+              </td>
+              <td>
+                系统软件
+              </td>
+              <td>
+               16456131321
+              </td>
+              <td>
+                3123123131
+              </td>
+              <td>
+                v1
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                亨通光电费用报销管理系统软件
+              </td>
+              <td>
+                系统软件
+              </td>
+              <td>
+                16456131321
+              </td>
+              <td>
+                3123123131
+              </td>
+              <td>
+                v1
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                亨通光电费用报销管理系统软件
+              </td>
+              <td>
+                系统软件
+              </td>
+              <td>
+                16456131321
+              </td>
+              <td>
+                3123123131
+              </td>
+              <td>
+                v1
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 资质认证-->
+        <div class="tab-content padding-h-1x " id="certification">
+          <h4 class="section-title margin-t-2x"><strong>资质认证</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td >
+                设备名称
+              </td>
+              <td style="width: 15%">
+                证书类型
+              </td>
+              <td style="width: 15%">
+                发证日期
+              </td>
+              <td style="width: 12%">
+                截止日期
+              </td>
+              <td style="width: 12%">
+                设备编号
+              </td>
+              <td style="width: 12%">
+                许可编号
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                亨通光电费用报销管理系统软件
+              </td>
+              <td>
+                进网许可证
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                3123123131
+              </td>
+              <td>
+                v1
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                亨通光电费用报销管理系统软件
+              </td>
+              <td>
+                进网许可证
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                3123123131
+              </td>
+              <td>
+                v1
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                亨通光电费用报销管理系统软件
+              </td>
+              <td>
+                进网许可证
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                3123123131
+              </td>
+              <td>
+                v1
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                亨通光电费用报销管理系统软件
+              </td>
+              <td>
+                进网许可证
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                3123123131
+              </td>
+              <td>
+                v1
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation">
+            <ul class="pagination pagination-sm" style="margin: auto">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 重大创新成果-->
+        <div class="tab-content padding-h-1x " id="innovation">
+          <h4 class="section-title margin-t-2x"><strong>重大创新成果</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 30%">
+                标题
+              </td>
+              <td>
+                描述
+              </td>
+              <td style="width: 10%">
+                操作
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            <tr class="border1">
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                海南电网有限责任公司2016年第二批省级集中采购物资框架招标
+              </td>
+              <td>
+                <span class="btn7 margin-r-0-3x">详情﹥﹥</span>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row bg-white margin-t-20px border-b4">
+        <div class="icinfo_title"><img src="resource/img/XWin-title.png"></div>
+        <!-- 媒体评价/社会舆情信息-->
+        <div class="tab-content padding-h-1x " id="opinion">
+          <h4 class="section-title margin-t-2x"><strong>媒体评价/社会舆情信息</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 15%">
+               发布时间
+              </td>
+              <td>
+                标题
+              </td>
+              <td style="width: 20%">
+                来源
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span></td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 行业协会/社会组织评价信息-->
+        <div class="tab-content padding-h-1x " id="association">
+          <h4 class="section-title margin-t-2x"><strong>行业协会/社会组织评价信息</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 15%">
+                发布时间
+              </td>
+              <td>
+                标题
+              </td>
+              <td style="width: 20%">
+                来源
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span></td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 供应商/ 合作伙伴评价信息-->
+        <div class="tab-content padding-h-1x " id="partner">
+          <h4 class="section-title margin-t-2x"><strong>供应商/ 合作伙伴评价信息</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 15%">
+                发布时间
+              </td>
+              <td>
+                标题
+              </td>
+              <td style="width: 20%">
+                来源
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span></td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 终端用户/消费者评价信息-->
+        <div class="tab-content padding-h-1x " id="consumer">
+          <h4 class="section-title margin-t-2x"><strong>终端用户/消费者评价信息</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 15%">
+                发布时间
+              </td>
+              <td>
+                标题
+              </td>
+              <td style="width: 20%">
+                来源
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span></td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 员工评价-->
+        <div class="tab-content padding-h-1x " id="staff">
+          <h4 class="section-title margin-t-2x"><strong>员工评价</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 15%">
+                发布时间
+              </td>
+              <td>
+                标题
+              </td>
+              <td style="width: 20%">
+                来源
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span></td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 用户评价-->
+        <div class="tab-content padding-h-1x " id="user">
+          <h4 class="section-title margin-t-2x"><strong>用户评价</strong> <small class="margin-l-20px">共计<span class="font-m1">10</span>条</small></h4>
+          <table class="table table1 border-b4  margin-t-1x">
+            <thead>
+            <tr  class="border1 no-border">
+              <td style="width: 15%">
+                发布时间
+              </td>
+              <td>
+                标题
+              </td>
+              <td style="width: 20%">
+                来源
+              </td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="border1">
+              <td>
+                2016-02-03
+              </td>
+              <td>
+                <span class="font-m1">海南电网有限责任公司2016年第二批省级集中采购物资框架招标</span></td>
+              <td>
+                苏州市吴江区人民法院
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!--右边广告 -->
+    <div class="col-md-3">
+      <img src="resource/img/r-ad-1.png" class="img-responsive">
+      <img src="resource/img/r-ad-2.png" class="img-responsive margin-t-1x">
+    </div>
+  </div>
+</div>
+<div class="optional">
+  <div class="content">
+    <ul>
+      <li><span><img src="resource/img/about.png" /> 关于我们</span></li>
+      <li><span><img src="resource/img/phone.png" /> 联系我们</span></li>
+      <li><span><img src="resource/img/qian.png" /> 收费标准</span></li>
+      <li style="border-right: 0px"><span><img src="resource/img/pay.png" /> 付款方式</span></li>
+    </ul>
+  </div>
+</div>
+<div class="footer">
+  <div class="matter">
+    <p style="font-size: 15px">北京佰策邦信用管理有限公司 版权所有</p>
+    <p style="margin-top: 5px;font-size: 10px">c2015 xincn.com 京ICP备 15054876号-2</p>
+    <p style="margin-top: 15px">地址：北京市东城区东中街9号东环广场A座五层J-L室 电话：010-57015798</p>
+  </div>
+</div>
+</body>
+<script type="application/javascript">
+    $(document).ready(function () {
+        // 分页
+        pageNavObj = new PageNavCreate("PageNavId", {
+            pageCount: 50,//总页数
+            currentPage: 1,//当前页
+            perPageNum: 5,//每页按钮数
+        });
+        pageNavObj.afterClick(pageNavCallBack);
+
+        //头导航
+        $(".content .title .name").click(function () {
+            $(".content .title .name").removeClass("current")
+            $(this).addClass("current")
+        });
+        // ----- 导航栏 展开与折叠-----------------------------------
+      $(".app-nav-container").mousemove(function(e){
+          $(".app-nav-container").find("tbody").show();
+      });
+        $(".app-nav-container").mouseout(function(){
+            $(".app-nav-container").find("tbody").hide();
+        });
+
+        // 页面滚动  ----- 导航栏 显示样式 方式  start -----------------------------------
+        var flag = false;
+        var navTop = $("table.app-nav-container").offset().top
+        var scrollTop =  $(window).scrollTop();
+
+        $(window).scroll(function(event) {
+            // 页面滚动值
+            scrollTop =  $(window).scrollTop();
+            // 导航高度
+            appNavShowType();
+        });
+        var appNavShowType = function () {
+            //判断 如果滚动高度 大于 导航高度 ，导航 置顶
+            if (scrollTop > navTop && !flag) {
+                $("table.app-nav-container").addClass("fix");
+                $("table.app-nav-container thead tr").addClass("background_color1")
+                flag = true;
+            }else if(scrollTop < navTop && flag){
+                $("table.app-nav-container").removeClass("fix")
+                $("table.app-nav-container thead tr").removeClass("background_color1")
+                flag = false;
+            }
+        };
+        appNavShowType();
+      // 页面滚动  ----- 导航栏 显示样式 方式   end -----------------------------------
+    })
+
+
+
+
+    //翻页按钮点击后触发的回调函数
+    function pageNavCallBack(clickPage) {
+
+
+        //一般来说可以在这里通过clickPage,执行AJAX请求取数来重写页面
+
+    }
+
+    function pageChang(clickPage) {
+        //最后别忘了更新一遍翻页导航栏
+        //pageNavCreate("PageNav",pageCount,clickPage,pageNavCallBack);
+        pageNavObj = null
+        pageNavObj = new PageNavCreate("PageNavId", {
+            pageCount: getPageSet().pageCount,//总页数
+            currentPage: clickPage,//当前页
+            perPageNum: getPageSet().perPageNum,//每页按钮数
+        });
+
+        pageNavObj.afterClick(pageNavCallBack);
+    }
+
+    //本示例页的一些js
+    function getPageSet() {
+        var obj = {
+            pageCount: null,//总页数
+            currentPage: null,//当前页
+            perPageNum: null,//每页按钮数
+        }
+        if ($("#testPageCount").val() && !isNaN(parseInt($("#testPageCount").val()))) {
+            obj.pageCount = parseInt($("#testPageC" +
+                "ount").val());
+        } else {
+            obj.pageCount = parseInt($(".page-input-box > input").attr("placeholder"));
+        }
+
+        if ($("#testCurrentPage").val() && !isNaN(parseInt($("#testCurrentPage").val()))) {
+            obj.currentPage = parseInt($("#testCurrentPage").val());
+            obj.currentPage = (obj.currentPage <= obj.pageCount ? obj.currentPage : obj.pageCount);
+        } else {
+            obj.currentPage = 1;
+        }
+
+        if ($("#testPerPageNum").val() && !isNaN(parseInt($("#testPerPageNum").val()))) {
+            obj.perPageNum = parseInt($("#testPerPageNum").val());
+        } else {
+            obj.perPageNum = null;
+        }
+
+        return obj;
+    }
+    
+    function  scrollIntoViewMsg(id) {
+        $("html, body").animate({
+            scrollTop: $(id).offset().top-60 }, {duration: 500,easing: "swing"});
+             return false;
+    }
+
+</script>
+</html>

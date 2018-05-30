@@ -1,0 +1,171 @@
+.content {
+    height: auto;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.content .container {
+    margin-top: 18px !important;
+}
+
+.company-item .col-1 {
+    float: left;
+    width: 110px;
+    margin-right: -110px;
+}
+
+.company-item .col-1 > .logo {
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.company-item .col-2 {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.company-item .col-2 > .col-2-1 {
+    margin-left: 110px;
+    margin-right: 200px;
+}
+
+.company-item .col-2 > .col-2-1 > .company-title > a {
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+.company-item .company-status {
+     float: right;
+     width: 90px;
+     margin-left: -90px;
+     margin-top: 30px;
+ }
+.company-item .legal-person img {
+    margin-top: -2px;
+    margin-right: 15px;
+}
+
+.nav-tabs {
+    border: 1px solid #ddd;
+}
+
+.app-nav-container > ul > li {
+    width: 14.2%;
+    margin-bottom: 0px;
+}
+.nav > li > a {
+    color: black;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+    border-color: white;
+    background-color: white;
+    text-decoration: none;
+}
+
+.app-nav-container > ul > li span {
+    float: right;
+}
+
+.section-title {
+    border-left: 3px solid #20aa33;
+    padding-left: 8px;
+}
+.icinfo_title>img {
+    margin-left: -1px;
+    width: 922px;
+}
+#icinfo .table>tbody td {
+    width: 25%;
+    vertical-align: middle!important;
+}
+#icinfo .table>tbody td .table>tbody td  {
+    border-top: 0px;
+}
+#partners .table>thead td {
+    border-right:0px;
+    border-left:0px;
+    border-bottom: 1px solid #ddd;
+    height: 60px;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+#partners .table>tbody td {
+    border-right: 1px solid #ddd;
+    border-top: 0px;
+    border-bottom: 0px;
+    height: 60px;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+
+#partners .table>tbody td>span {
+    line-height: 30px;
+}
+
+#employees .table .table tr {
+    height: 60px;
+}
+#employees .table .table td {
+   vertical-align: middle;
+    border: 1px solid #ddd;
+    padding-left: 30px;
+}
+#employees .table .table td span {
+    line-height: 30px;
+}
+#branches .table .table {
+    width: 50%;
+}
+#branches .table .table td {
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    text-align: center;
+    height: 60px;
+}
+#changeInfo .table {
+    border: 1px solid #f4fdff;
+
+}
+#changeInfo .table>thead td {
+    height:60px;
+    background-color: #f4fdff;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+#changeInfo .table>tbody td {
+    border: 1px solid #f4fdff;
+    padding-left: 20px;
+}
+
+#investment .table>thead td {
+    height:60px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+#investment .table>tbody td {
+    height:60px;
+    vertical-align: middle;
+    border-left: 1px solid #ddd;
+    border-top: 0px;
+}
+
+#shangshi .table>tbody td {
+    height:60px;
+    vertical-align: middle;
+    border: 1px solid #f4fdff;
+    padding-left: 30px;
+}
+
+.app-nav-container.fix {
+    z-index: 1030;
+    top: 0;
+    position: fixed!important;
+    background-color: #fff;
+    width: 922px;
+}

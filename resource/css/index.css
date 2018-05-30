@@ -1,0 +1,306 @@
+
+body {
+    color: #333;
+    font-family: "宋体", "黑体", Arial, "微软雅黑";
+    font-size: 13px;
+}
+
+.head_link {
+    line-height: 100px;
+}
+
+
+
+.search {
+    width: 100%;
+    height: 473px;
+}
+
+.search .search_content {
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    width: 100%;
+    height: 470px;
+    background-size: 1800px;
+}
+
+.search .search_title {
+    text-align: center;
+    padding-top: 115px;
+    size: 50px;
+}
+
+.search .search_title img {
+    margin-left: 40px;
+}
+
+
+
+.search .search_title2 {
+    size: 50px;
+    height: 65px;
+    width: 740px;
+}
+
+.search .search_title2 div {
+    float: left;
+    height: 65px;
+    margin-top: 6px;
+}
+
+.search .search_title2 div > span {
+    color: white;
+    line-height: 52px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search .search_title2 .current {
+    background: url(../img/Switch.png) no-repeat center center;
+    min-width: 75px;
+    background-size: 85px 50px;
+
+    padding: 0px 5px;
+}
+
+.search .search_title2 .current span {
+    color: black;
+    font-weight: normal;
+}
+
+.search .search_msg {
+    height: 65px;
+    width: 846px;
+}
+
+.search .search_input {
+    height: 45px;
+    width: 740px;
+
+}
+
+.search .search_input > input {
+    height: 45px;
+}
+
+.search .search_button {
+    height: 45px;
+    width: 105px;
+    background-color: #1ac800;
+    cursor: pointer;
+}
+
+.search .search_button > img {
+    margin-top: 12px;
+}
+
+.search .search_hotSearch {
+    height: 35px;
+    width: 670px;
+}
+
+.search .search_hotSearch span {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.otherContent {
+    width: 100%;
+    height: 1300px;
+    background-color: #f6f6f6;
+    padding-top: 20px;
+}
+
+.otherContent .public_search {
+    width: 1200px;
+    height: 220px;
+    margin: auto;
+}
+
+.otherContent .public_search_element {
+    height: 220px;
+    width: 240px;
+    float: left;
+    background-color: white;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+
+.otherContent .public_search_icon {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.otherContent .public_search_text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.otherContent .public_search_text .title > span {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.otherContent .public_search_text .msg {
+    padding: 5px 10px;
+}
+
+.otherContent .read_title {
+    margin-top: 20px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+}
+
+.otherContent .read_title .fl {
+    line-height: 46px;
+    margin-left: 20px;
+}
+
+.otherContent .read_title .fl > img {
+    vertical-align: sub;
+    height: 22px;
+    width: 20px;
+}
+
+.otherContent .read_title .fl > span {
+    font-size: 20px;
+    margin-left: 5px;
+    color: #20aa33;
+}
+
+.otherContent .read_title .fr {
+    line-height: 50px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.otherContent .read_title .fr span {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.otherContent .read_title .semicircle {
+    text-align: center;
+    line-height: 31px;
+    width: 70px;
+    height: 31px;
+    border-radius: 15px 0 0 15px;
+    background-color: #e6f5fc;
+    float: right;
+}
+
+.otherContent .read-content {
+    height: 380px;
+    width: 1201px;
+}
+
+.otherContent .read-content .element {
+    float: left;
+    border: 1px solid #e5e5e5;
+    height: 380px;
+    width: 393.6px;
+    background-color: white;
+    margin-left: 1px;
+}
+
+.otherContent .read-content .element .title {
+    height: 25px;
+}
+
+.otherContent .read-content .element .title_msg {
+    height: 25px;
+    text-align: center;
+    width: 85px;
+}
+
+.otherContent .read-content .element .title_msg > span {
+    font-weight: bold;
+    color: white;
+    line-height: 25px;
+}
+
+.otherContent .read-content .element .content {
+    margin: 30px 5px auto 5px;
+    height: 70px;
+}
+.otherContent .read-content .element .read_img {
+    width: 79px;
+    float: left;
+    height: 70px;
+}
+
+.otherContent .read-content .element .msg {
+
+    width: 302px;
+    float: right;
+    height: 70px;
+    padding: 15px;
+    background-color: #fafafa;
+}
+
+.otherContent .new_msg {
+    margin-top: 20px;
+    border: 1px solid #e5e5e5;
+    background-color: white;
+    height: 420px;
+}
+
+.otherContent .new_msg .title {
+    width: 100%;
+    height: 61px;
+    background-color: #f2f9fc;
+    text-align: center;
+}
+
+.otherContent .new_msg .title .name {
+    float: left;
+    width: 399px;
+    line-height: 58px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.otherContent .new_msg .title span {
+    font-size: 20px;
+}
+
+.otherContent .new_msg .title .current {
+    background-color: white;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 0px;
+    color: #20aa33;
+    border-top: 2px  solid #20aa33;
+}
+
+.otherContent .new_msg .companies {
+    width: 100%;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.otherContent .new_msg .companies .company {
+    height: 100%;
+    float: left;
+}
+
+.otherContent .new_msg .companies .fl {
+    width: 259.5px;
+    height: 100%;
+    margin: 0px 20px;
+    padding: 25px 15px;
+    border: 1px solid #e5e5e5;
+}
+
+.otherContent .new_msg .companies .fl .companies_name {
+    font-size: 17px;
+}
+
+.otherContent .new_msg .companies .fl .companies_person {
+    font-size: 10px;
+    margin-top: 5px;
+    color: #666666;
+}

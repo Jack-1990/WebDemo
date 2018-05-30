@@ -1,0 +1,193 @@
+b, label, strong {
+    font-weight: 600;
+}
+
+
+.head {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.head_content {
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+}
+
+.head_logo {
+    position: absolute;
+    line-height: 100px;
+}
+
+.head_link {
+    line-height: 100px;
+    width: 220px;
+    margin-left: -220px;
+    padding-top: 5px;
+    padding-top: 9px;
+}
+
+.head_link a {
+    color: #5cb85c;
+    margin: auto 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.head .head_logo > .logo-link {
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.head .head_logo > .logo-link > img {
+    vertical-align: sub;
+}
+
+.head .container .middle {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+.head .container .middle .search {
+    margin: 35px 100px 28px 130px;
+    padding-left: 160px;
+    padding-right: 160px;
+
+}
+
+@media only screen and (max-width: 991px) {
+    .head .container .middle .search {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.search .input-group > input {
+    height: 45px;
+    border: 1px solid #20aa33;
+    border-radius: 0px;
+}
+
+.search .search-btn {
+    background-color: #20aa33;
+    border-radius: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn4 {
+    color: #0fbbe9;
+    border: 1px solid #0fbbe9;
+    background-color: transparent;
+}
+
+.btn5 {
+    color: #20aa33;
+    border-left: 2px solid #f2f2f2;
+    background-color: transparent;
+    border-radius: 0px;
+    padding-left: 15px;
+    font-size: 13px;
+}
+.btn6 {
+    width: 110px;
+    float: right;
+    height:30px;
+    color: #666666;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.btn7 {
+    width: 70px;
+    float: right;
+    height:20px;
+    background-color: #57c2d4;
+    color: white;
+    padding: 1px 8px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.table > thead > tr > td.background_color1,
+.table > tbody > tr > td.background_color1,
+.table > tfoot > tr > td.background_color1,
+.table > thead > tr > th.background_color1,
+.table > tbody > tr > th.background_color1,
+.table > tfoot > tr > th.background_color1,
+.table > thead > tr.background_color1 > td,
+.table > tbody > tr.background_color1 > td,
+.table > tfoot > tr.background_color1 > td,
+.table > thead > tr.background_color1 > th,
+.table > tbody > tr.background_color1 > th,
+.table > tfoot > tr.background_color1 > th {
+    background-color: #f2f9fc;
+}
+
+.table > thead > tr > td.background_color2,
+.table > tbody > tr > td.background_color2,
+.table > tfoot > tr > td.background_color2,
+.table > thead > tr > th.background_color2,
+.table > tbody > tr > th.background_color2,
+.table > tfoot > tr > th.background_color2,
+.table > thead > tr.background_color2 > td,
+.table > tbody > tr.background_color2 > td,
+.table > tfoot > tr.background_color2 > td,
+.table > thead > tr.background_color2 > th,
+.table > tbody > tr.background_color2 > th,
+.table > tfoot > tr.background_color2 > th {
+    background-color: #fffbfb;
+}
+.table > thead > tr.model1 > td,
+.table > tbody > tr.model1 > td{
+    height:60px;
+    vertical-align: middle;
+    border: 1px solid #f4fdff;
+    padding-left: 30px;
+}
+.table > thead > tr.no-border > td,
+.table > tbody > tr.no-border > td{
+    border: 0px!important;
+}
+.table > thead > tr.border1 > td,
+ .table > tbody > tr.border1 > td{
+     border: 1px solid #ddd;
+     padding-left: 20px;
+     vertical-align: middle;
+     height: 60px;
+ }
+
+.table > thead > tr.border2 > td,
+.table > tbody > tr.border2 > td{
+    border: 1px solid #ddd;
+    padding: 0px;
+}
+
+.table > thead > tr.border3 > td,
+.table > tbody > tr.border3 > td{
+    border-top: 0px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding-left: 30px;
+    height:34px;
+}
+.table > tbody > tr.border3 > td:hover{
+    background-color: #f4fdff;
+}
+
+.table > thead > tr.border3 > td a,
+.table > tbody > tr.border3 > td a{
+  color: black;
+}
+
+
+.table > thead > tr.td_color1 > td,
+.table > tbody > tr.td_color1 > td{
+   background-color: #f2f9fc;
+}
+.table > thead > tr.ver_al_middle > td,
+.table > tbody > tr.ver_al_middle > td{
+    vertical-align: middle;
+}

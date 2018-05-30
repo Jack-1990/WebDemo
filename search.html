@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html class="" style="margin-right: 0px;" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>搜索结果页</title>
+  <link rel="stylesheet" type="text/css" href="resource/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="resource/css/base-global.css" />
+  <link rel="stylesheet" type="text/css" href="resource/css/common.css" />
+  <link rel="stylesheet" type="text/css" href="resource/css/search.css" />
+  <link rel="stylesheet" type="text/css" href="resource/css/pageNav.css" />
+  <script type="text/javascript" src="resource/js/jquery.min.js"></script>
+  <script type="text/javascript" src="resource/js/pageNav.js"></script>
+</head>
+<body>
+<div class="head">
+  <div class="container">
+    <div class="head_logo">
+      <a href="/" class="logo-link "> <img src="resource/img/logo.png" width="250" height="80" /> </a>
+    </div>
+    <div class="middle">
+      <div class="search">
+        <div class="input-group">
+          <input type="text" class="form-control" id="exampleInputAmount" placeholder="请输入企业名称、人名、商标名称或其他关键字如 &quot;远东&quot;" />
+          <div class="input-group-addon search-btn">
+            <img src="resource/img/xinyongsou.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="head_link fr">
+      <a href="#">登录</a> |
+      <a href="#">注册</a> |
+      <a href="#">会员服务</a>
+    </div>
+  </div>
+</div>
+<div class="line"></div>
+<div class="content">
+  <div class="container padding-v-20px padding-l-0x padding-r-0x">
+    <div class="col-md-9">
+      <!-- 搜索条件  -->
+      <div class="border-b4">
+        <div class="title">
+          <div class="name current" style="border-left: 0px">
+            <span>公司</span>
+          </div>
+          <div class="name">
+            <span>司法风险</span>
+          </div>
+          <div class="name">
+            <span>经营风险</span>
+          </div>
+          <div class="name">
+            <span>经营状况</span>
+          </div>
+          <div class="name" style="border-right: 0px">
+            <span>知识产权</span>
+          </div>
+        </div>
+        <div class=" padding-h-1x padding-t-1x padding-b-0-6x  bg-white search-condition_msg">
+          <div class="row search-condition">
+            <div class="col-xs-12 small font-f1 margin-b-1x search-condition-row">
+              <div class="left">
+                搜索范围
+              </div>
+              <div class="middle">
+                <div class="wrapper">
+                  <div>
+                    <a class="text-option">全部</a>
+                    <a class="text-option">公司</a>
+                    <a class="text-option">法人/股东/高管</a>
+                    <a class="text-option">产品/商标</a>
+                    <a class="text-option">联系方式</a>
+                    <a class="text-option">经营范围</a>
+                    <a class="text-option">事业单位</a>
+                    <a class="text-option">基金会</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 small font-f1 margin-b-1x search-condition-row">
+              <div class="left">
+                省份区域
+              </div>
+              <div class="middle">
+                <div class="wrapper">
+                  <div>
+                    <a class="text-option">北京</a>
+                    <a class="text-option">上海</a>
+                    <a class="text-option">天津</a>
+                    <a class="text-option">重庆</a>
+                    <a class="text-option">江苏</a>
+                    <a class="text-option">广东</a>
+                    <a class="text-option">河北</a>
+                    <a class="text-option">河南</a>
+                    <a class="text-option">安徽</a>
+                    <a class="text-option">浙江</a>
+                    <a class="text-option">福建</a>
+                    <a class="text-option">甘肃</a>
+                    <a class="text-option">广西</a>
+                    <a class="text-option">贵州</a>
+                    <a class="text-option">云南</a>
+                    <a class="text-option">内蒙古</a>
+                    <a class="text-option">江西</a>
+                    <a class="text-option">湖北</a>
+                    <a class="text-option">四川</a>
+                    <a class="text-option">宁夏</a>
+                    <a class="text-option">青海</a>
+                    <a class="text-option">山东</a>
+                    <a class="text-option">陕西</a>
+                    <a class="text-option">山西</a>
+                    <a class="text-option">新疆</a>
+                    <a class="text-option">西藏</a>
+                    <a class="text-option">海南</a>
+                    <a class="text-option">湖南</a>
+                    <a class="text-option">黑龙江</a>
+                    <a class="text-option">吉林</a>
+                    <a class="text-option">辽宁</a>
+                    <a class="text-option">香港</a>
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+                <a href="javascript:;" onclick="getAll(this)" class="text-more">更多</a>
+              </div>
+            </div>
+            <div class="col-xs-12 small font-f1 margin-b-1x search-condition-row">
+              <div class="left">
+                企业描述
+              </div>
+              <div class="middle">
+                <div class="wrapper">
+                  <div>
+                    <a class="text-option">行业分类 <i><img src="resource/img/arrow_down.png" /></i> </a>
+                    <a class="text-option">注册资本 <i><img src="resource/img/arrow_down.png" /></i> </a>
+                    <a class="text-option">注册时间 <i><img src="resource/img/arrow_down.png" /></i> </a>
+                    <a class="text-option">企业状态 <i><img src="resource/img/arrow_down.png" /></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 small font-f1 margin-b-1x search-condition-row">
+              <div class="left">
+                高级筛选
+              </div>
+              <div class="middle">
+                <div class="wrapper expand">
+                  <div>
+                    <a class="text-option">联系电话 <i><img src="resource/img/arrow_down.png" /></i> </a>
+                    <a class="text-option">商标 <i><img src="resource/img/arrow_down.png" /></i> </a>
+                    <a class="text-option">专利 <i><img src="resource/img/arrow_down.png" /></i> </a>
+                    <a class="text-option">失信 <i><img src="resource/img/arrow_down.png" /></i> </a>
+                    <a class="text-option">网址 <i><img src="resource/img/arrow_down.png" /></i> </a>
+                    <a class="text-option">软件著作权 <i><img src="resource/img/arrow_down.png" /></i> </a>
+                    <a class="text-option">融资 <i><img src="resource/img/arrow_down.png" /></i> </a>
+                  </div>
+                </div>
+              </div>
+              <div class="right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="search-condition_isOpen">
+        <a class="text-option" onclick="showSearchCondition(this)"><span>收起</span> <i><img style=" margin-top: -3px;" src="resource/img/arrow_down_blue.png" /></i> </a>
+      </div>
+      <!-- 搜索内容  -->
+      <div class="padding-h-1x border-h-b4 border-t-b4 app-list-items margin-t-40px">
+        <div class="row">
+          <div class="col-xs-12 bg-white  padding-v-1x clearfix border-b-b4 font-f1 small">
+            <div class="app-list-item">
+              <img src="resource/img/triangle.png" />
+              <span class="search_count_title">企信在线为您找到相关结果约<span style="color: red">28</span>个,</span>
+              <span style="color: #46b956">升级成为VIP会员, 可查看全部</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 bg-white padding-v-1x margin-0-0x border-b-b4 company-item">
+            <div class="col-1 text-center">
+              <div class="logo" style="background-image:url(resource/img/search-logo.png);"></div>
+            </div>
+            <div class="col-2">
+              <div class="col-2-1">
+                <div class="company-title">
+                  <a href="/company/60214084-2b87-4ea3-9131-e4c313deacf0" target="_blank" title="点击查看公司详情" data-event-search="1" keyid="60214084-2b87-4ea3-9131-e4c313deacf0" queryid="7041dd6e-2719-4205-abae-ede21427e421"><em>腾讯</em>科技（深圳）有限公司</a>
+                </div>
+                <div class="legal-person">
+                  法定代表人：
+                  <span style="color: #54bccf;" class="margin-r-1x">马化腾</span>
+                  <span class="margin-r-1x">注册资本: 135000万元人民币</span>
+                  <span class="margin-r-1x">成立时间: 1993-06-05</span>
+                </div>
+                <div class="legal-person">
+                  <span class="margin-r-1x">电话：0755-86013388</span>
+                  <span>邮箱：<a href="mailto:landyzhang@tencent.com" class="font-f2">landyzhang@tencent.com</a></span>
+                </div>
+                <div class="legal-person">
+                  <span>地址：深圳市南山区高新区科技中一路腾讯大厦35层</span>
+                </div>
+                <div class="match-item"></div>
+              </div>
+            </div>
+            <div class="company-status">
+              <a class="btn4 btn-sm" data-marko="{&quot;onclick&quot;:&quot;showVCard s0-9-16-27 false&quot;}" data-original-title="" title="">在业</a>
+            </div>
+          </div>
+          <div class="col-xs-12 bg4 padding-v-1x margin-0-0x border-b-b4 company-item">
+            <div class="col-1 text-center">
+              <div class="logo" style="background-image:url(resource/img/search-logo.png);"></div>
+            </div>
+            <div class="col-2">
+              <div class="col-2-1">
+                <div class="company-title">
+                  <a href="/company/60214084-2b87-4ea3-9131-e4c313deacf0" target="_blank" title="点击查看公司详情" data-event-search="1" keyid="60214084-2b87-4ea3-9131-e4c313deacf0" queryid="7041dd6e-2719-4205-abae-ede21427e421"><em>腾讯</em>科技（深圳）有限公司</a>
+                </div>
+                <div class="legal-person">
+                  法定代表人：
+                  <span style="color: #54bccf;" class="margin-r-1x">马化腾</span>
+                  <span class="margin-r-1x">注册资本: 135000万元人民币</span>
+                  <span class="margin-r-1x">成立时间: 1993-06-05</span>
+                </div>
+                <div class="legal-person">
+                  <span class="margin-r-1x">电话：0755-86013388</span>
+                  <span>邮箱：<a href="mailto:landyzhang@tencent.com" class="font-f2">landyzhang@tencent.com</a></span>
+                </div>
+                <div class="legal-person">
+                  <span>地址：深圳市南山区高新区科技中一路腾讯大厦35层</span>
+                </div>
+                <div class="match-item"></div>
+              </div>
+            </div>
+            <div class="company-status">
+              <a class="btn4 btn-sm" data-marko="{&quot;onclick&quot;:&quot;showVCard s0-9-16-27 false&quot;}" data-original-title="" title="">在业</a>
+            </div>
+          </div>
+          <div class="col-xs-12 bg-white padding-v-1x margin-0-0x border-b-b4 company-item">
+            <div class="col-1 text-center">
+              <div class="logo" style="background-image:url(resource/img/search-logo.png);"></div>
+            </div>
+            <div class="col-2">
+              <div class="col-2-1">
+                <div class="company-title">
+                  <a href="/company/60214084-2b87-4ea3-9131-e4c313deacf0" target="_blank" title="点击查看公司详情" data-event-search="1" keyid="60214084-2b87-4ea3-9131-e4c313deacf0" queryid="7041dd6e-2719-4205-abae-ede21427e421"><em>腾讯</em>科技（深圳）有限公司</a>
+                </div>
+                <div class="legal-person">
+                  法定代表人：
+                  <span style="color: #54bccf;" class="margin-r-1x">马化腾</span>
+                  <span class="margin-r-1x">注册资本: 135000万元人民币</span>
+                  <span class="margin-r-1x">成立时间: 1993-06-05</span>
+                </div>
+                <div class="legal-person">
+                  <span class="margin-r-1x">电话：0755-86013388</span>
+                  <span>邮箱：<a href="mailto:landyzhang@tencent.com" class="font-f2">landyzhang@tencent.com</a></span>
+                </div>
+                <div class="legal-person">
+                  <span>地址：深圳市南山区高新区科技中一路腾讯大厦35层</span>
+                </div>
+                <div class="match-item"></div>
+              </div>
+            </div>
+            <div class="company-status">
+              <a class="btn4 btn-sm" data-marko="{&quot;onclick&quot;:&quot;showVCard s0-9-16-27 false&quot;}" data-original-title="" title="">在业</a>
+            </div>
+          </div>
+          <div class="col-xs-12 bg4 padding-v-1x margin-0-0x border-b-b4 company-item">
+            <div class="col-1 text-center">
+              <div class="logo" style="background-image:url(resource/img/search-logo.png);"></div>
+            </div>
+            <div class="col-2">
+              <div class="col-2-1">
+                <div class="company-title">
+                  <a href="/company/60214084-2b87-4ea3-9131-e4c313deacf0" target="_blank" title="点击查看公司详情" data-event-search="1" keyid="60214084-2b87-4ea3-9131-e4c313deacf0" queryid="7041dd6e-2719-4205-abae-ede21427e421"><em>腾讯</em>科技（深圳）有限公司</a>
+                </div>
+                <div class="legal-person">
+                  法定代表人：
+                  <span style="color: #54bccf;" class="margin-r-1x">马化腾</span>
+                  <span class="margin-r-1x">注册资本: 135000万元人民币</span>
+                  <span class="margin-r-1x">成立时间: 1993-06-05</span>
+                </div>
+                <div class="legal-person">
+                  <span class="margin-r-1x">电话：0755-86013388</span>
+                  <span>邮箱：<a href="mailto:landyzhang@tencent.com" class="font-f2">landyzhang@tencent.com</a></span>
+                </div>
+                <div class="legal-person">
+                  <span>地址：深圳市南山区高新区科技中一路腾讯大厦35层</span>
+                </div>
+                <div class="match-item"></div>
+              </div>
+            </div>
+            <div class="company-status">
+              <a class="btn4 btn-sm" data-marko="{&quot;onclick&quot;:&quot;showVCard s0-9-16-27 false&quot;}" data-original-title="" title="">在业</a>
+            </div>
+          </div>
+          <div class="col-xs-12 bg-white padding-v-1x margin-0-0x border-b-b4 company-item">
+            <div class="col-1 text-center">
+              <div class="logo" style="background-image:url(resource/img/search-logo.png);"></div>
+            </div>
+            <div class="col-2">
+              <div class="col-2-1">
+                <div class="company-title">
+                  <a href="/company/60214084-2b87-4ea3-9131-e4c313deacf0" target="_blank" title="点击查看公司详情" data-event-search="1" keyid="60214084-2b87-4ea3-9131-e4c313deacf0" queryid="7041dd6e-2719-4205-abae-ede21427e421"><em>腾讯</em>科技（深圳）有限公司</a>
+                </div>
+                <div class="legal-person">
+                  法定代表人：
+                  <span style="color: #54bccf;" class="margin-r-1x">马化腾</span>
+                  <span class="margin-r-1x">注册资本: 135000万元人民币</span>
+                  <span class="margin-r-1x">成立时间: 1993-06-05</span>
+                </div>
+                <div class="legal-person">
+                  <span class="margin-r-1x">电话：0755-86013388</span>
+                  <span>邮箱：<a href="mailto:landyzhang@tencent.com" class="font-f2">landyzhang@tencent.com</a></span>
+                </div>
+                <div class="legal-person">
+                  <span>地址：深圳市南山区高新区科技中一路腾讯大厦35层</span>
+                </div>
+                <div class="match-item"></div>
+              </div>
+            </div>
+            <div class="company-status">
+              <a class="btn4 btn-sm" data-marko="{&quot;onclick&quot;:&quot;showVCard s0-9-16-27 false&quot;}" data-original-title="" title="">在业</a>
+            </div>
+          </div>
+          <div class="col-xs-12 bg4 padding-v-1x margin-0-0x border-b-b4 company-item">
+            <div class="col-1 text-center">
+              <div class="logo" style="background-image:url(resource/img/search-logo.png);"></div>
+            </div>
+            <div class="col-2">
+              <div class="col-2-1">
+                <div class="company-title">
+                  <a href="/company/60214084-2b87-4ea3-9131-e4c313deacf0" target="_blank" title="点击查看公司详情" data-event-search="1" keyid="60214084-2b87-4ea3-9131-e4c313deacf0" queryid="7041dd6e-2719-4205-abae-ede21427e421"><em>腾讯</em>科技（深圳）有限公司</a>
+                </div>
+                <div class="legal-person">
+                  法定代表人：
+                  <span style="color: #54bccf;" class="margin-r-1x">马化腾</span>
+                  <span class="margin-r-1x">注册资本: 135000万元人民币</span>
+                  <span class="margin-r-1x">成立时间: 1993-06-05</span>
+                </div>
+                <div class="legal-person">
+                  <span class="margin-r-1x">电话：0755-86013388</span>
+                  <span>邮箱：<a href="mailto:landyzhang@tencent.com" class="font-f2">landyzhang@tencent.com</a></span>
+                </div>
+                <div class="legal-person">
+                  <span>地址：深圳市南山区高新区科技中一路腾讯大厦35层</span>
+                </div>
+                <div class="match-item"></div>
+              </div>
+            </div>
+            <div class="company-status">
+              <a class="btn4 btn-sm" data-marko="{&quot;onclick&quot;:&quot;showVCard s0-9-16-27 false&quot;}" data-original-title="" title="">在业</a>
+            </div>
+          </div>
+          <div class="col-xs-12 bg-white padding-v-1x margin-0-0x border-b-b4 company-item">
+            <div class="col-1 text-center">
+              <div class="logo" style="background-image:url(resource/img/search-logo.png);"></div>
+            </div>
+            <div class="col-2">
+              <div class="col-2-1">
+                <div class="company-title">
+                  <a href="/company/60214084-2b87-4ea3-9131-e4c313deacf0" target="_blank" title="点击查看公司详情" data-event-search="1" keyid="60214084-2b87-4ea3-9131-e4c313deacf0" queryid="7041dd6e-2719-4205-abae-ede21427e421"><em>腾讯</em>科技（深圳）有限公司</a>
+                </div>
+                <div class="legal-person">
+                  法定代表人：
+                  <span style="color: #54bccf;" class="margin-r-1x">马化腾</span>
+                  <span class="margin-r-1x">注册资本: 135000万元人民币</span>
+                  <span class="margin-r-1x">成立时间: 1993-06-05</span>
+                </div>
+                <div class="legal-person">
+                  <span class="margin-r-1x">电话：0755-86013388</span>
+                  <span>邮箱：<a href="mailto:landyzhang@tencent.com" class="font-f2">landyzhang@tencent.com</a></span>
+                </div>
+                <div class="legal-person">
+                  <span>地址：深圳市南山区高新区科技中一路腾讯大厦35层</span>
+                </div>
+                <div class="match-item"></div>
+              </div>
+            </div>
+            <div class="company-status">
+              <a class="btn4 btn-sm" data-marko="{&quot;onclick&quot;:&quot;showVCard s0-9-16-27 false&quot;}" data-original-title="" title="">存续</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav aria-label="Page navigation" class="page-nav-outer" style="text-align: center;margin-top: 20px" id="PageNavId"></nav>
+    </div>
+    <div class="col-md-3">
+      <img src="resource/img/r-ad-1.png" class="img-responsive" />
+      <img src="resource/img/r-ad-2.png" class="img-responsive margin-t-1x" />
+    </div>
+  </div>
+</div>
+
+<div class="optional">
+  <div class="content">
+    <ul>
+      <li><span><img src="resource/img/about.png" /> 关于我们</span></li>
+      <li><span><img src="resource/img/phone.png" /> 联系我们</span></li>
+      <li><span><img src="resource/img/qian.png" /> 收费标准</span></li>
+      <li style="border-right: 0px"><span><img src="resource/img/pay.png" /> 付款方式</span></li>
+    </ul>
+  </div>
+</div>
+<div class="footer">
+  <div class="matter">
+    <p style="font-size: 15px">北京佰策邦信用管理有限公司 版权所有</p>
+    <p style="margin-top: 5px;font-size: 10px">c2015 xincn.com 京ICP备 15054876号-2</p>
+    <p style="margin-top: 15px">地址：北京市东城区东中街9号东环广场A座五层J-L室 电话：010-57015798</p>
+  </div>
+</div>
+<script type="application/javascript">
+    $(document).ready(function () {
+        // 分页
+        pageNavObj = new PageNavCreate("PageNavId", {
+            pageCount: 50,//总页数
+            currentPage: 1,//当前页
+            perPageNum: 5,//每页按钮数
+        });
+        pageNavObj.afterClick(pageNavCallBack);
+
+        //头导航
+        $(".content .title .name").click(function () {
+            $(".content .title .name").removeClass("current")
+            $(this).addClass("current")
+        });
+
+
+
+    })
+
+    //翻页按钮点击后触发的回调函数
+    function pageNavCallBack(clickPage) {
+
+
+        //一般来说可以在这里通过clickPage,执行AJAX请求取数来重写页面
+
+    }
+
+    function pageChang(clickPage) {
+        //最后别忘了更新一遍翻页导航栏
+        //pageNavCreate("PageNav",pageCount,clickPage,pageNavCallBack);
+        pageNavObj = null
+        pageNavObj = new PageNavCreate("PageNavId", {
+            pageCount: getPageSet().pageCount,//总页数
+            currentPage: clickPage,//当前页
+            perPageNum: getPageSet().perPageNum,//每页按钮数
+        });
+
+        pageNavObj.afterClick(pageNavCallBack);
+    }
+
+    //本示例页的一些js
+    function getPageSet() {
+        var obj = {
+            pageCount: null,//总页数
+            currentPage: null,//当前页
+            perPageNum: null,//每页按钮数
+        }
+        if ($("#testPageCount").val() && !isNaN(parseInt($("#testPageCount").val()))) {
+            obj.pageCount = parseInt($("#testPageC" +
+                "ount").val());
+        } else {
+            obj.pageCount = parseInt($(".page-input-box > input").attr("placeholder"));
+        }
+
+        if ($("#testCurrentPage").val() && !isNaN(parseInt($("#testCurrentPage").val()))) {
+            obj.currentPage = parseInt($("#testCurrentPage").val());
+            obj.currentPage = (obj.currentPage <= obj.pageCount ? obj.currentPage : obj.pageCount);
+        } else {
+            obj.currentPage = 1;
+        }
+
+        if ($("#testPerPageNum").val() && !isNaN(parseInt($("#testPerPageNum").val()))) {
+            obj.perPageNum = parseInt($("#testPerPageNum").val());
+        } else {
+            obj.perPageNum = null;
+        }
+
+        return obj;
+    }
+
+    function getAll(e) {
+        if (!$(e).parents(".search-condition-row").find(".wrapper").hasClass("expand")) {
+            $(e).parents(".search-condition-row").find(".wrapper").addClass("expand");
+        }else {
+            $(e).parents(".search-condition-row").find(".wrapper").removeClass("expand");
+        }
+
+
+    }
+
+    function showSearchCondition(e) {
+
+        if ($(".search-condition_msg").hasClass("hide")) {
+            $(".search-condition_msg").removeClass("hide");
+            $(e).find("span").text("收起");
+            $(e).find("img").attr("src","resource/img/arrow_down_blue.png");
+        }else {
+            $(".search-condition_msg").addClass("hide");
+            $(e).find("span").text("展开");
+            $(e).find("img").attr("src","resource/img/arrow_up_blue.png");
+        }
+
+    }
+</script>
+</body>
+</html>
